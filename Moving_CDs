@@ -1,0 +1,24 @@
+                    Moving 3 Colored CDs From First Wall To The Third
+
+The Number of CDS That Will Be Moved To The third Wall and Number of Walls
+ 
+To the bottom on the first wall on the left is the green CD
+To the middle on the first wall on the left is the blue CD
+On top of the first wall on the left is the yellow CD
+
+                Number of Walls and How it's lined Up
+
+Three walls of the same length and size
+Lined up in singles starting from first one the left, second in the middle and third to the right.
+
+Moving CDs from First Wall to third Wall In Same Order
+
+                Moving CDs From The First Wall To Second
+Move the yellow CD to the second Wall making it the first on the bottom
+Move the blue CD in the middle to the second Wall making it the second on top of the yellow CD
+Move the green CD from the bottom on the first Wall making it the first on top of the blue CD
+
+                Moving CDs From Second Wall To The Third Wall
+Move the green CD in the middle wall to the third Wall and drop on the third wall making it the first CD starting from the bottom
+Move the blue CD in the middle wall to the third Wall and drop on top of the green CD in the third making it the second(middle) CD
+Move the yellow CD from the bottom of the second wall to the third Wall and drop on top of the blue CD making it the first(top) CD keeping the original line up
