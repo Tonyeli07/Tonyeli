@@ -1,0 +1,25 @@
+Scanning the Page
+
+Print = alpha characters
+Alpha characters are letters from A-Z
+Numeric factors are numbers that contain 0 and 9
+Non-characters = print numeric characters 
+#Tally each alpha character printed to get total count on page
+#Tally each non-character printed to get total count on page
+
+Scan the entire page from the first line on top through to the last line on the bottom
+On each page is an image full on characters
+As you scan page, each letter between A-Z should be printed and tallied as scanning goes
+In the same process, scan and tally any numeric factor and print as non-character
+Tally all non-characters recorded
+
+
+Identifying and Printing alpha characters 
+Scan page and identify alpha characters and non-characters
+If page contains alpha letters:
+    print and move on to next line
+    tally each alpha character in each line
+else: print numbers as non-characters 
+      tally all non-characters
+
+
