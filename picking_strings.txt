@@ -1,0 +1,36 @@
+Picking Two Strings
+
+1. 'Isidentifier'
+2. 'maketrans'
+
+a = 'isidentifier'
+b = 'maketrans'
+
+Figuring out what both strings mean
+
+1. isidentifier()
+This in-built function of Python is used to check whether a string is a valid identifier or not. 
+The method returns True if the string is a valid identifier else returns False.
+The method does not take any parameters
+Example:
+
+
+2. maketrans()
+The maketrans() method returns a translation table that maps each character in the intabstring into the character at the same position in the outtab string. 
+Then this table is passed to the translate() function.
+Both intab and outtab must have the same length.
+
+Intab:
+This is the string having actual characters.
+
+Outtab:
+This is the string having corresponding mapping character.
+
+Example:
+intab = "aeiou"
+outtab = "12345"
+trantab = str.maketrans(intab, outtab)
+
+str = "this is string example....wow!!!"
+print (str.translate(trantab))
+Produce: th3s 3s str3ng 2x1mpl2....w4w!!!
