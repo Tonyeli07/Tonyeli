@@ -9,10 +9,11 @@ b = 'maketrans'
 Figuring out what both strings mean
 
 1. isidentifier()
-This in-built function of Python is used to check whether a string is a valid identifier or not. 
-The method returns True if the string is a valid identifier else returns False.
-The method does not take any parameters
-Example:
+isidentifier() method of builtins.str instance
+    Return True if the string is a valid Python identifier, False otherwise.
+    
+    Call keyword.iskeyword(s) to test whether string s is a reserved identifier,
+    such as "def" or "class".
 
 
 2. maketrans()
@@ -33,4 +34,4 @@ trantab = str.maketrans(intab, outtab)
 
 str = "this is string example....wow!!!"
 print (str.translate(trantab))
-Produce: th3s 3s str3ng 2x1mpl2....w4w!!!
+Produce: th3s 3s str3ng 2x1mpl2....w4w!!!  
