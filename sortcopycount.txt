@@ -1,0 +1,36 @@
+3_directories
+
+Do a dir(some_list)
+
+Pick three available function from the (some_list) obtained from directory
+function picked from some_list (1. translate, 2. title 3. strip)
+Type help and put the three picked functions from the list with some_list in parenthesis and figure out what they do
+
+1. help(some_list.reverse)
+Help on built-in function reverse:
+reverse() method of builtins.list instance
+Reverse *IN PLACE*.
+
+2. help(some_list.sort)
+Help on built-in function sort:
+
+sort(*, key=None, reverse=False) method of builtins.list instance
+    Sort the list in ascending order and return None.
+    The sort is in-place (i.e. the list itself is modified) and stable (i.e. the
+    order of two equal elements is maintained).
+    If a key function is given, apply it once to each list item and sort them,
+    ascending or descending, according to their function values.
+    The reverse flag can be set to sort in descending order.
+
+3. help(some_list.copy)
+Help on built-in function copy:
+copy() method of builtins.list instance
+Return a shallow copy of the list.
+
+4. help(some_list.count)
+Help on built-in function count:
+count(value, /) method of builtins.list instance
+Return number of occurrences of value.
+
+
+
